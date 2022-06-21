@@ -69,13 +69,13 @@ ul {
   font-size: 1rem;
 }
 
+.my-links a {
+  color: var(--color-black);
+}
+
 .my-links a:hover {
   border: 3px solid red;
   padding: 10px;
-}
-
-.my-links a {
-  color: var(--color-black);
 }
 
 .intro {
@@ -120,8 +120,6 @@ ul {
   padding-top: 40px;
   padding-left: 20px;
   position: relative;
-  margin: 1rem;
-  padding: 1rem;
   max-width: 550px;
 }
 
@@ -303,9 +301,6 @@ footer {
   position: relative;
 }
 
-.intro-about-content {
-  color: var(--color-red);
-}
 .about-intro::before {
   content: "";
   background-image: url('./images/banner11.PNG');
@@ -325,6 +320,7 @@ footer {
 }
 
 .intro-about-content {
+  color: var(--color-red);
   padding-top: 6rem;
   display: flex;
   flex-direction: column;
@@ -346,6 +342,17 @@ footer {
 .intro-about-desc .footer-logo .footer-img {
   width: 150px;
   height: 150px;
+}
+
+.about-branch p {
+  margin: 1rem;
+  text-align: center;
+}
+
+.branch p {
+  color: white;
+  position: relative;
+  text-align: center;
 }
 
 .intro-about-desc .footer-logo .footer-name p {
@@ -395,17 +402,6 @@ footer {
   margin-top: 1rem;
   text-align: center;
   max-width: 600px;
-}
-
-.about-branch p {
-  margin: 1rem;
-  text-align: center;
-}
-
-.branch p {
-  color: white;
-  position: relative;
-  text-align: center;
 }
 
 .branches {
