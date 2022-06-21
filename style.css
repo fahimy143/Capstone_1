@@ -1,0 +1,277 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+  outline: 0;
+  text-decoration: none;
+  list-style: none;
+}
+
+:root {
+  --color-black: #272a31;
+  --color-red: #ec5242;
+  --color-gray: #d3d3d3;
+}
+
+body {
+  background-color: beige;
+}
+
+ul {
+  list-style-type: none;
+  padding-left: 1rem;
+}
+
+.media-links {
+  background: var(--color-black);
+  height: 35px;
+  color: white;
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  justify-content: flex-end;
+  align-items: center;
+  padding-right: 100px;
+}
+
+.media-links a {
+  color: white;
+}
+
+.nav-container {
+  background-color: white;
+  height: 80px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.my-logo {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.my-logo img {
+  height: 60px;
+  width: 60px;
+}
+
+.my-logo a {
+  color: var(--color-black);
+}
+
+.my-links {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  font-size: 1rem;
+}
+
+.my-links a {
+  color: var(--color-black);
+}
+
+.intro {
+  height: 100vh;
+  position: relative;
+  background-color: rgb(243, 243, 243);
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 12rem;
+}
+
+.intro::before {
+  content: "";
+  background-image: url('./images/banner11.PNG');
+  background-size: 100% 100%;
+  position: absolute;
+  top: 1px;
+  right: 1px;
+  bottom: 1px;
+  left: 1px;
+  opacity: 0.1;
+}
+
+.intro-heading {
+  color: var(--color-red);
+}
+
+.intro-heading h1 {
+  font-weight: bold;
+  line-height: 0.9;
+  font-size: 55px;
+}
+
+.intro-desc {
+  border: 2px solid white;
+  height: 70px;
+  width: 500px;
+  margin: 10px;
+  padding-top: 40px;
+  padding-left: 20px;
+}
+
+.date {
+  font-size: 30px;
+  font-weight: 800;
+}
+
+/* product style */
+.product {
+  background: url('./images/product_backgroud.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  text-align: center;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.p-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1rem;
+  margin: 4rem;
+}
+
+.line {
+  height: 1px;
+  background-color: var(--color-red);
+  width: 50px;
+}
+
+article {
+  background-color: #272a31;
+  border: 1px solid white;
+}
+
+.p-img img {
+  height: 250px;
+  width: 180px;
+}
+
+.p-info {
+  padding: 10px;
+  padding-left: 30px;
+}
+
+.p-info h2 {
+  color: var(--color-red);
+}
+
+.see-more {
+  color: white;
+  text-decoration: underline;
+}
+
+/* category brands */
+
+.categories-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 5rem;
+}
+
+#categories {
+  display: grid;
+  grid-template-columns: repeat(2, 2fr);
+}
+
+.category {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: 1px;
+  margin-top: 1rem;
+  width: 90%;
+}
+
+.cat-img {
+  height: 150px;
+  width: 150px;
+  margin-right: 1rem;
+}
+
+.cat-line {
+  height: 2px;
+  background-color: rgb(85, 85, 85);
+  width: 50px;
+  border-radius: 25px;
+  margin-bottom: 10px;
+}
+
+.cat-text {
+  color: #e43c13;
+  font-size: 13px;
+  font-style: italic;
+}
+
+.cat-content {
+  font-size: 15px;
+}
+
+.cat-title {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+/* partners */
+
+.partners-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 2rem;
+  background-color: var(--color-black);
+}
+
+.partners-section h2 {
+  color: white;
+}
+
+.partners {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.partner {
+  padding: 1rem;
+  color: #d1d1d1;
+  font-size: 30px;
+}
+
+/* footer */
+
+footer {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 3rem;
+}
+
+.footer-logo {
+  display: flex;
+  margin-right: 1rem;
+}
+
+.footer-img {
+  height: 50px;
+  width: 40px;
+}
+
+.footer-name p {
+  margin: 1px;
+  color: #e43c13;
+  font-size: 18px;
+  font-weight: 600;
+}
