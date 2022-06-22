@@ -91,8 +91,6 @@ morebtn.addEventListener('click', () => {
   morebtn.classList.add('hidden');
 });
 
-// humbergar butoon 
-
 const menubtn = document.querySelector('#menubtn');
 const closemenubtn = document.querySelector('#closemenubtn');
 const mylinks = document.querySelector('.my-links');
