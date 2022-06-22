@@ -31,13 +31,20 @@ To get a local copy up and running follow these simple example steps.
   - Clone the github repository and set up linters
 
 
-## Authors
+## Author
 
 👤 **Fahimy**
 
 - GitHub: [@fahimy143](https://https://github.com/fahimy143)
 - Twitter: [@Mustafa_Fahimy](https://)
 - LinkedIn: [Mustafa Fahimy](https://https://www.linkedin.com/in/mustafa-fahimy-307566236/)
+
+## Acknowledgments
+
+- The credit of design of this website goes to @Cindy Shin the author of the original design, as required by the Creative Commons License."
+  Hat tip to anyone whose code was used
+- Icons from font-awesome
+- Fonts from Google-fonts and cdn-fonts
 
 
 ## 🤝 Contributing
