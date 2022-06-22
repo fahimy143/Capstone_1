@@ -15,6 +15,7 @@
 
 body {
   font-family: 'Lato', sans-serif;
+  max-width: 100%;
 }
 
 ul {
@@ -47,6 +48,10 @@ ul {
   align-items: center;
 }
 
+.nav-container button {
+  display: none;
+}
+
 .my-logo {
   display: flex;
   flex-direction: row;
@@ -65,7 +70,7 @@ ul {
 .my-links {
   display: flex;
   flex-direction: row;
-  gap: 20px;
+  gap: 25px;
   font-size: 1rem;
 }
 
@@ -436,4 +441,268 @@ footer {
   font-size: 35px;
   font-weight: bold;
   position: relative;
+}
+
+.morebtn {
+  display: none;
+}
+
+@media only screen and (max-width: 600px) {
+  body {
+    max-width: 100%;
+  }
+
+  .media-links {
+    display: none;
+  }
+
+  nav {
+    background-color: var(--color-gray);
+  }
+
+  .nav-container {
+    display: inline-block;
+    height: 100%;
+    background-color: var(--color-gray);
+  }
+  
+  .nav-container button {
+    display: inline;
+    background: transparent;
+    font-size: 1.9rem;
+  }
+
+  .nav-container i {
+    color: black;
+  }
+  
+  .my-logo {
+    display: none;
+  }
+  
+  .my-links {
+    display: none;
+    margin-top: 4rem;
+    height: fit-content;
+    width: 100vm;
+    gap: 40px;
+    flex-direction: column;
+    font-weight: bold;
+    font-size: 40px;
+    transition: ease-in;
+  }
+
+  .nav-container button#closemenubtn {
+    display: none;
+  }
+  
+
+  .intro {
+    flex-direction: column;
+    gap: 1rem;
+    justify-content: center;
+    padding: 1rem;
+  }
+
+  .intro-heading h1 {
+    font-size: 50px;
+  }
+  
+  .intro-desc {
+    height: fit-content;
+    width: fit-content;
+    margin: 2px;
+    padding-top: 10px;
+    padding-left: 1px;
+    position: relative;
+    max-width: 100%;
+  }
+  
+  .date {
+    font-size: 20px;
+    font-weight: 750;
+  }
+
+  /* product style */
+  .product {
+    padding: 0.8rem;
+  }
+
+  .p-container {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 1rem;
+    margin: 1rem;
+  }
+
+  article {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: fit-content;
+    align-items: center;
+  }
+
+  .p-img img {
+    height: 150px;
+    width: 100px;
+  }
+
+  .p-info {
+    padding: 1px;
+    padding-left: 30px;
+    text-align: start;
+  }
+
+  /* category brands */
+
+  .categories-section {
+    padding: 2rem;
+  }
+
+  #categories {
+    grid-template-columns: repeat(1, 2fr);
+  }
+
+  .category {
+    margin-top: 3rem;
+    width: fit-content;
+  }
+
+  .cat-img {
+    height: 150px;
+    width: 100px;
+    margin-right: 1rem;
+  }
+
+  .morebtn {
+    display: flex;
+    width: 90%;
+    padding: 5px;
+    justify-content: center;
+    border: solid 1px #272a31;
+    margin: 50px 0;
+    cursor: pointer;
+  }
+  
+  .dropdown {
+    width: 13px;
+    height: 13px;
+    padding-top: 14px;
+  }
+  
+  .more {
+    font-size: 18px;
+    margin: 10px;
+  }
+
+  .p {
+    display: none;
+  }
+  
+  .f {
+    display: none;
+  }
+
+  .hidden {
+    display: none;
+  }
+
+  .uil {
+    color: var(--color-red);
+  }
+
+  /* About page */
+
+.about-intro {
+  height: 90vh;
+  width: 100%;
+  position: relative;
+}
+
+.contact p {
+  color: black;
+  font-size: 13px;
+}
+
+.intro-about-content {
+  padding-top: 7rem;
+}
+
+.intro-about-content h1 {
+  font-size: 30px;
+  position: relative;
+  text-align: center;
+}
+
+.intro-about-content h2 {
+  font-size: 20px;
+  position: relative;
+  text-align: center;
+  padding-bottom: 1rem;
+}
+
+.intro-about-desc .footer-logo .footer-img {
+  width: 100px;
+  height: 100px;
+}
+
+.about-branch p {
+  margin: 1rem;
+  text-align: center;
+}
+
+.branch p {
+  color: white;
+  position: relative;
+  text-align: center;
+}
+
+.intro-about-desc .footer-logo .footer-name p {
+  font-size: 20px;
+}
+
+.intro-about-desc {
+  border: 2px solid rgb(230, 227, 227);
+  background-color: rgb(247, 247, 247);
+  position: relative;
+  margin: 1rem;
+  padding: 1rem;
+  max-width: 550px;
+}
+
+.about-intro .contact {
+  padding-top: 2rem;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  align-items: center;
+}
+
+.about-intro .contact span {
+  color: black;
+  font-size: 18px;
+  text-decoration: underline;
+}
+
+.about-branch h2 {
+  text-align: center;
+}
+
+.about-logo {
+  align-items: center;
+}
+
+.about-logo h2 {
+  text-align: center;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.about-logo-desc {
+  max-width: fit-content;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
 }

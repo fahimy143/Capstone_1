@@ -82,3 +82,29 @@ const lunchCategories = () => {
   });
 };
 lunchCategories();
+
+// more btn
+const morebtn = document.querySelector('.morebtn');
+morebtn.addEventListener('click', () => {
+  document.getElementById('partnerList').classList.remove('p');
+  document.getElementById('footer').classList.remove('f');
+  morebtn.classList.add('hidden');
+});
+
+// humbergar butoon 
+
+const menubtn = document.querySelector('#menubtn');
+const closemenubtn = document.querySelector('#closemenubtn');
+const mylinks = document.querySelector('.my-links');
+
+menubtn.addEventListener('click', () => {
+  mylinks.style.display = 'flex';
+  menubtn.style.display = 'none';
+  closemenubtn.style.display = 'inline';
+});
+
+closemenubtn.addEventListener('click', () => {
+  mylinks.style.display = 'none';
+  menubtn.style.display = 'inline';
+  closemenubtn.style.display = 'none';
+});
