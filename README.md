@@ -14,7 +14,7 @@
 
 ## Live Demo (if available)
 
-[Live Demo Link](https://[https://fahimy143.github.io/Capstone_1/](https://fahimy143.github.io/Capstone_1/))
+[Live Demo Link](https://fahimy143.github.io/Capstone_1/)
 
 
 ## Getting Started
