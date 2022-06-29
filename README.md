@@ -2,7 +2,7 @@
 
 # Capstone
 
-> This is Capstone project.
+> This is Capstone project whick I build in first Microverse module
 
 
 ## Built With
@@ -12,7 +12,7 @@
 - JavaScript
 - Linters
 
-## Live Demo (if available)
+## Live Demo
 
 [Live Demo Link](https://fahimy143.github.io/Capstone_1/)
 
@@ -35,9 +35,8 @@ To get a local copy up and running follow these simple example steps.
 
 👤 **Fahimy**
 
-- GitHub: [@fahimy143](https://https://github.com/fahimy143)
-- Twitter: [@Mustafa_Fahimy](https://)
-- LinkedIn: [Mustafa Fahimy](https://https://www.linkedin.com/in/mustafa-fahimy-307566236/)
+- GitHub: [@fahimy143](https://github.com/fahimy143)
+- LinkedIn: [Mustafa Fahimy](https://www.linkedin.com/in/mustafa-fahimy-307566236/)
 
 ## Acknowledgments
 
