@@ -1,6 +1,6 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Capstone
+# Online clothes shopping center
 
 > This is Capstone project whick I build in first Microverse module
 
